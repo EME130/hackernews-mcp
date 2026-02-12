@@ -1,0 +1,20 @@
+{
+  "name": "hackernews-mcp",
+  "version": "1.0.0",
+  "description": "HackerNews MCP server for Claude — read HN content and post stories, comments, and upvotes",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "cheerio": "^1.0.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
